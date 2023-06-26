@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	var comferenceName = "Big Doris App"
-	const comferenceTickets = 60
-	var RemainingTickets uint = 60
+	const comferenceTickets = 50
+	var RemainingTickets uint = 50
 
 	fmt.Printf("Welcome to %v\n", comferenceName)
 	fmt.Printf("we have a total tickets of %v and %v are still Available.\n", comferenceTickets, RemainingTickets)
