@@ -12,8 +12,10 @@ func main() {
 	fmt.Println("Get your tickeks to Attend.")
 
 	var firstName string
+	var middleName string
 	var lastName string
 	var email string
+	var age int
 	var tickets uint
 
 	RemainingTickets = RemainingTickets - tickets
@@ -22,11 +24,17 @@ func main() {
 	fmt.Println("Enter your first name:")
 	fmt.Scan(&firstName)
 
+	fmt.Println("Enter your middle name:")
+	fmt.Scan(&middleName)
+
 	fmt.Println("Enter your last  name:")
 	fmt.Scan(&lastName)
 
 	fmt.Println("Enter your email address:")
 	fmt.Scan(&email)
+
+	fmt.Println("Enter your age:")
+	fmt.Scan(&age)
 
 	fmt.Println("Enter Tickets:")
 	fmt.Scan(&tickets)
