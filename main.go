@@ -12,7 +12,6 @@ func main() {
 	fmt.Println("Get your tickeks to Attend.")
 
 	var firstName string
-	var middleName string
 	var lastName string
 	var email string
 	var age int
@@ -23,9 +22,6 @@ func main() {
 	//asking userName
 	fmt.Println("Enter your first name:")
 	fmt.Scan(&firstName)
-
-	fmt.Println("Enter your middle name:")
-	fmt.Scan(&middleName)
 
 	fmt.Println("Enter your last  name:")
 	fmt.Scan(&lastName)
@@ -39,7 +35,7 @@ func main() {
 	fmt.Println("Enter Tickets:")
 	fmt.Scan(&tickets)
 
-	fmt.Printf("thank you %v %v %v for booking %v tickets with us,you will recieve a comfirmation email at %v\n", firstName, middleName, lastName, tickets, email)
+	fmt.Printf("thank you %v %v  for booking %v tickets with us,you will recieve a comfirmation email at %v\n", firstName, lastName, tickets, email)
 	fmt.Printf("we have %v remaining", RemainingTickets-tickets)
 
 }
