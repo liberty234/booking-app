@@ -14,6 +14,7 @@ func main() {
 	var firstName string
 	var lastName string
 	var email string
+	var phoneNumber int
 	var age int
 	var tickets uint
 
@@ -28,6 +29,9 @@ func main() {
 
 	fmt.Println("Enter your email address:")
 	fmt.Scan(&email)
+
+	fmt.Println("Enter your phonme numbers:")
+	fmt.Scan(&phoneNumber)
 
 	fmt.Println("Enter your age:")
 	fmt.Scan(&age)
