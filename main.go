@@ -30,7 +30,7 @@ func main() {
 	fmt.Println("Enter your email address:")
 	fmt.Scan(&email)
 
-	fmt.Println("Enter your phonme numbers:")
+	fmt.Println("Enter your phone number:")
 	fmt.Scan(&phoneNumber)
 
 	fmt.Println("Enter your age:")
