@@ -82,7 +82,7 @@ func main() {
 	getAge()
 	getTickets()
 
-	fmt.Printf("Thank you %s %s for booking %v ticket with us, you will recieve an comfirmation email on %s\n ", firstName, lastName, tickets, email)
+	fmt.Printf("Thank you %s %s for booking %v tickets with us, you will recieve a comfirmation email at %s\n ", firstName, lastName, tickets, email)
 	fmt.Printf("we have %v remaining\n", RemainingTickets)
 
 }
